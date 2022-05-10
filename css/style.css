@@ -1,0 +1,66 @@
+header, header ul{
+    background-color: #536976 !important;
+}
+.container > h1, p {
+    text-align: center;
+}
+.no-list {
+    list-style: none;
+}
+form {
+    justify-content: center;
+}
+#btn_submit{
+    margin-left: auto;
+}
+.space_around {
+    padding: 5px !important;
+}
+.my_profile {
+    align-items: center;
+    margin-bottom: 10%;
+    margin-top: 5% !important;
+}
+.my_profile > div > p {
+    text-align: left;
+}
+.my_profile > div > h2 img {
+    text-align: center;
+}
+.match {
+    margin-top: 5% !important;
+}
+.my_card {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding:5%;
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin:auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 25px 25px 0 0;
+    box-shadow:0 7px 30px -10px rgba(150,170,180,0.5);
+    color: white !important;
+}
+#user_card {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+}
+.my_description > p {
+    text-align: justify;
+}
+.my_card > img {
+    align-self: center;
+}
+.my_information {
+    display: flex;
+    justify-content: space-between;
+}
+.my_description {
+    display: flex;
+    justify-content: left;
+}
